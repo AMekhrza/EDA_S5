@@ -130,5 +130,17 @@
 ## Как запустить код
 1. Клонируйте репозиторий:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/AMekhrza/EDA_S5.git
+   cd EDA_S5
+  ```
+2. Установите зависимости:
+  ```bash
+  pip install -r requirements.txt
+  ```
+3. Запустите `EDA_S5.ipynb` в Jupyter Notebook и следуйте разделам.
+4. Используйте оптимизированную модель (`optimized_rf_model.pkl`) для предсказаний:
+  ```python
+  import joblib
+  model = joblib.load('optimized_rf_model.pkl')
+  predictions = model.predict(X_new)
+  ```
