@@ -1,3 +1,31 @@
+# EDA_S5: Spotify Track Popularity Prediction
+
+## ماهو هذا المشروع؟ (What is this project?)
+
+هذا المشروع يقوم بتحليل البيانات الاستكشافي (EDA) والتعلم الآلي للتنبؤ بشعبية المقاطع الموسيقية على Spotify. يحتوي المشروع على:
+- **تحليل بيانات** لـ 114,000 مقطع موسيقي من Spotify
+- **معالجة وتنظيف البيانات** وإنشاء ميزات جديدة
+- **نماذج التعلم الآلي** للتنبؤ بالشعبية (Random Forest حقق أفضل أداء)
+- **تصور البيانات** لفهم العلاقات بين الميزات الموسيقية والشعبية
+
+---
+
+## What is this project?
+
+This is an **Exploratory Data Analysis (EDA)** and **Machine Learning** project for predicting Spotify track popularity. The project includes:
+- **Data analysis** of 114,000 Spotify music tracks
+- **Data cleaning and preprocessing** with feature engineering
+- **Machine learning models** for popularity prediction (Random Forest achieved the best performance)
+- **Data visualization** to understand relationships between musical features and popularity
+
+**Key Features:**
+- Dataset: 114,000 tracks with 21 features (danceability, energy, loudness, tempo, etc.)
+- Target variable: Track popularity score
+- Best Model: Random Forest Regressor (MSE: 26.5074)
+- Tools: Python, Pandas, Scikit-learn, Seaborn, Matplotlib
+
+---
+
 # Регрессионная задача: README
 
 ## Основные выводы и результаты
